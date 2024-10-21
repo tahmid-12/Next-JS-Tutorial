@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 
 const Home = () => {
@@ -13,6 +14,8 @@ const Home = () => {
         <p className="desc text-center">
           Promptia is an open source AI Prompting tool for modern world to discover, create and share creative prompts.
         </p>
+
+        <Feed />
     </section>
   )
 }
