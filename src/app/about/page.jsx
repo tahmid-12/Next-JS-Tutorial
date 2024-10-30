@@ -1,9 +1,15 @@
-import React from 'react'
-import Image from 'next/image';
-import styles from './about.module.css';
+import Image from "next/image";
+import styles from "./about.module.css";
+
+export const metadata = {
+  title: "About Page",
+  description: "About description",
+};
 
 
-const About = () => {
+const AboutPage = () => {
+
+  // console.log("lets check where it works")
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
@@ -41,7 +47,7 @@ const About = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default AboutPage;
